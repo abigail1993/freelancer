@@ -1,3 +1,147 @@
-/*
- * Estilos de tu proyecto
- */
+.clear {
+  clear: both;
+}
+
+.float-left {
+  float: left;
+  margin-left: 70px;
+}
+
+.float-right {
+  float: right;
+  margin-right: 70px;
+}
+
+
+.tipo {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+header {
+  background: #2c3e50;
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+header > div > .menu-item {
+  margin:20px;
+  font-weight: 700;
+}
+
+header > .menu-list-conteiner {
+  margin-top: 30px;
+}
+
+#seccion-1 {
+  background-color: #18bc9c;
+  color: white;
+  text-align: center;
+  height: 500px;
+  padding: 100px;
+}
+
+.grandes {
+  font-size: 30px;
+
+}
+
+#seccion-4 > div > .bottom {
+  background: #18bc9c;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: -370px;
+}
+
+#seccion-2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+#images > img, #images-2 > img {
+  margin: 12px;
+  width: 350px;
+}
+
+#seccion-3 {
+  background-color: #18bc9c;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding:  100px;
+
+}
+
+.prueba1, .prueba2 {
+  position: relative;
+  display: inline-block;
+  outline:  1px solid pink;
+  width: 40%;
+  padding: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.bottom-white {
+  outline: 2px solid white;
+  font-size: 20px;
+  width: 200px;
+  margin: auto;
+}
+
+#seccion-4 {
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+
+}
+
+input {
+  display: block;
+  width: 40%;
+  height: 40px;
+  border: none;
+  padding: 15px;
+  margin-left: 350px;
+
+}
+
+#seccion-5 {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 50px;
+
+}
+
+#seccion-5 > div {
+  outline: 1px solid white;
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+}
+
+#seccion-5 > div > p > span {
+}
+
+.button {
+  border: 2px solid white;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  display: inline-block;
+}
+
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+
+}
